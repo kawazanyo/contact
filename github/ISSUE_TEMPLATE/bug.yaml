@@ -1,0 +1,38 @@
+name: Bug 作成用のテンプレート
+description: Bug 作成用のテンプレート
+title: "[Bug]: "
+labels: "bug"
+body:
+  - type: textarea
+    attributes:
+      label: 機能名
+      value: |
+        1.
+        2.
+        3.
+        ...
+    validations:
+      required: true
+  - type: textarea
+    attributes:
+      label: 動作環境
+      value: |
+        - Windows11
+        - Google Chrome
+    validations:
+      required: true
+  - type: textarea
+    attributes:
+      label: 再現方法
+      value: |
+        1.
+        2.
+        3.
+        ...
+    validations:
+      required: true
+  - type: textarea
+    attributes:
+      label: 備考
+    validations:
+      required: false

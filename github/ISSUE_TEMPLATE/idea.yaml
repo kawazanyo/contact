@@ -1,0 +1,25 @@
+name: Idea 作成用のテンプレート
+description: Idea 作成用のテンプレート
+title: "[Idea]: "
+labels: "idea"
+body:
+  - type: textarea
+    attributes:
+      label: 概要
+      value: |
+        - 取り崩しシミュレーションを追加してほしい！
+    validations:
+      required: true
+  - type: textarea
+    attributes:
+      label: 機能要件
+      value: |
+        - 年間の取り崩し額を計算する
+        - 取り崩し期間を計算する
+    validations:
+      required: true
+  - type: textarea
+    attributes:
+      label: 備考
+    validations:
+      required: false
